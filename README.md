@@ -15,3 +15,7 @@ It also uses **Local Storage** to save tasks even after refreshing the page.
 - Responsive design for mobile and desktop
 
 ---
+
+## Screenshot
+
+![App Screenshot](images/TodoList.jpg)
