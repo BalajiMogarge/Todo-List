@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #171616;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #1e1e1e;
+  padding: 25px;
+  border-radius: 15px;
+  width: 360px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00bcd4;
+  letter-spacing: 1px;
+}
+
+#InputSection {
+  display: flex;
+  gap: 10px;
+}
+
+#taskInput {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: #2a2a2a;
+  color: #f1f1f1;
+  font-size: 14px;
+}
+
+#taskInput::placeholder {
+  color: #aaa;
+}
+
+#add {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #00bcd4;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#add:hover {
+  background: #0097a7;
+}
+
+#list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+#list li {
+  background: #2a2a2a;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+#list li:hover {
+  background: #333;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.task-buttons button {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-btn {
+  background: #ffc107;
+  color: #000;
+}
+
+.edit-btn:hover {
+  background: #e0a800;
+}
+
+.delete-btn {
+  background: #f44336;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background: #d32f2f;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
